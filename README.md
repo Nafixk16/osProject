@@ -5,8 +5,8 @@ In this project we have implemented paralellprogramming Using open-Mp and Pthrea
 
 ### Motivation
 
-The motivation of this poject is to implement parallel progaramming and to gain some marks in OS
-course 
+The motivation of this poject is to implement parallel progaramming & speed up the process.  
+ 
 
 ### prerequisites 
 
@@ -18,4 +18,8 @@ to run this project first open ```Terminal``` then type
 
 ''' git clone https://github.com/Salman-Arshad/OS-Project```
 ```cd OS-Project'''
-'''Command to run project''`
+
+## for Pthread: 
+'''  gcc -o name name.c -lpthread''`
+## for Openmp:
+'''  gcc -o name name.c -fopenmp''`
